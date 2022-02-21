@@ -1,3 +1,5 @@
 Internet
 Unix
 Bash
+Soft skills
+Java
