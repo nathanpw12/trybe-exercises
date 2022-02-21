@@ -1,0 +1,8 @@
+ls	 lista todos os arquivos dentro de um direito 
+ls -a	 lista todos os arquivos inclusive ocultos (.share)
+cd 	 change directory , te muda de diretorio
+mkdir 	 make directory, criar um diretorio
+cd . 	 mostra o diretorio que vc esta
+cd .. 	 volta ao diretorio anterior
+pwd 	 mostra o diretorio completo
+

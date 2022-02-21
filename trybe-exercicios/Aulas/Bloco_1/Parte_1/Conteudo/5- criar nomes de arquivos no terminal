@@ -1,0 +1,6 @@
+ls * 	 mostra tudo dentro do direitorio , inclusive diretorios dentro dele e seus conteudos 
+ls ?asta1	 funciona como um caracter e lista todos os diretorio e arquivos que contenham o apartir do ?
+man 		manual do terminal
+whatis  comando 	explica oq o comando faz
+apropos comando		mostra todos os comandos que tem haver com o parametro 
+whoami 		mostra quem é o usario no momento 

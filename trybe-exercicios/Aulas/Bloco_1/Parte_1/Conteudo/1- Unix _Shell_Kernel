@@ -1,0 +1,49 @@
+//////////// Camada 1 ////////////////////
+O computador é composto por Hardaware e Software e o responsável pela interação entre esses dois é o kernell
+ele que indenficica os hardawares essenciais ao sistema
+
+//////////// Camada 2////////////////////
+Existe tambem o Shell, o shell são basicamente a interaçaõ do usario com a maquina 
+seja ela grafica usando o nemo por exemplo GUI
+ou in command line usando o terminal 
+
+O shell  le a linha de comando , interpreta seu significado, executar o comando e devolver o resultado para o usuario 
+
+existem varios tipos de shell como
+bash 
+zsh
+
+//////////// Camada 3 ////////////////////
+Aplicativos , softwares
+
+//////////////////////
+
+Processos tem um indentificador unico, chamado PID 
+Que contem:
+usuario proprietario 
+versao do shell
+estado de funcionamento
+linha de comando utilizida
+
+No unix tudo são arquivos 
+
+/////////////////////// Diretorios ///////////
+
+/ raiz
+boot 
+bin arquivos binarios
+dev arquivos dispositivos
+etc scripts de inicialização 
+home diferemtes para cada usario 
+proc diretorio dinamico especifico que mantem os processos ativos no momento e o estado do sistema
+root é o home do usario root
+sbin binarios importantes 
+tmp
+usr aplicativos e arquivos acessiveis a todos os usarios 
+var arquivos variaveis e bancos de dados
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+chmod	 	muda as permisões de um arquivo
+	
+	u 	permissões usuário atual
+	g 	''''''''' grupo
+	o 	''''''''' outros usários
+	a	''''''''' para todo mundo
+	
+	-	retirar permissoes
+	+	adicionar permissoes
+	=	deixar igual a condição de permissao escrita
+
+chmod u-rw exemplo.txt
+	
+	
+  Permissões | Links  | Proprietário | Grupo | Tamanho | Data e Hora   | Nome
+  -----------|--------|--------------|-------|---------|---------------|---------
+  drwxr-xr-x | 2      | root         | root  | 4096    | Out 19 09:10  | composer/
+  
+  r= 4 	
+  w= 2 
+  x= 1
+  
+  chmod 476    .txt
+  

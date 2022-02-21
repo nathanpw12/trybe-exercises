@@ -1,0 +1,23 @@
+git log 		mostra informações sobre todas as commits
+git log --diff-filter=D --summary  		mostra todos os commitis que deletaram um arquivo
+git checkout 4442~1 arquivo.txt 		restaura o arquivo 
+
+////////// git ignore //////////////
+
+o git ignore, é um arquivo .gitignore.txt , que faz com que o git ignore tipos de arquivos ou um arquivo
+especifico. Para isso , pasta editar o arquivo .gitignore
+
+*.txt    ignora todos os arquivos .txt
+diretorio/
+arquivo especifico
+
+Ao usar o git status, os arquivos no .gitignore serão desconsiderados 
+
+///////////// git pull, git fetch e git push ///////////////
+
+o git push faz com que os arquivo adicionados no git add e commitados no git commit sejam "empurrado"
+para o repositorio remoto no github     
+
+o git fetch verifica se o seu repositorio tem alguma alteração a ser adicionada em relação ao repositorio remoto 
+
+o git pull pega as alterações e do diretorio remoto e as junta ao seu local

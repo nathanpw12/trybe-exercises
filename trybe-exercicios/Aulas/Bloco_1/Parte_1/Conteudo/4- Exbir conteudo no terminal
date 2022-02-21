@@ -1,0 +1,20 @@
+less 	 pagina o conteudo do arquivo
+| para sair do modo de exbição do less aperta-se Q
+| /palavra procura todos os resultado entre as paginas com essa palavra ( usa-se n para pular de um resultado para o outro)
+| espaço para pular entre paginas 
+
+
+head 	mostra os 10 primeiros ( head -5 os 5 primeiros...)
+tail	mostra os 10 ultimos ( tail -5 os 5 ultimos...)
+grep palavra 	busca dentro do arquivos todo conteudo com tall palavra
+grep  -i palavra 	ignora se a palavra esta em maiusculo ou n e procura todos os resultado com a palavra
+grep 'frase muito lega' 	busca por frases no arquivo com essa frase entre '' (pode se usar o -i tambem para ignorar letra...)
+grep -iv ou -v	palavra 'frase legal'	 		busca todas as frases ou palavras que NAO tenham o parametro escolido
+grep -n  		busca a linha que a palavra ou frase do parametro está
+grep -c 		mostra quantas vezes a frase ou palavra aparece no arquivo
+
+wc  		 mostra a quantidade de linha , palavras e caracteres
+wc -w 		 qnt palavras
+wc -l		qnt linhas
+wc -c	 	qnt  caracteres 
+

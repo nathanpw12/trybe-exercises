@@ -1,0 +1,9 @@
+vento
+dia
+tarefas
+> criar um arquivo e coloca valores nele
+>> adiciona valores a um arquivo que ja existe
+mouse
+teclado
+celular
+alexa

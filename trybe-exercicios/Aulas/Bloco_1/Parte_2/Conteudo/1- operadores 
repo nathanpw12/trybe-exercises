@@ -1,0 +1,13 @@
+ > redireciona a saida padrao para um arquivo 
+* ou seja, se o arquivo ja existir, ele substitui o conteudo inicia, caso nao existir, ele cria um novo arquivo com o conteudo colocado como input
+
+ >> adciona um conteudo ao final de um arquivo existente
+ 
+ |  canaliza a saída do primeiro comando para a entrada do segundo, essa forma conseguimos realizar comandos de forma sucessiva.
+    
+    *exemplo 
+ 	
+ 	grep F nomes.txt | sort
+	# Resultado
+	Fabiano
+	Fernanda

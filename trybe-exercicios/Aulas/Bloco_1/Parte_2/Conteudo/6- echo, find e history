@@ -1,0 +1,40 @@
+echo 		 pega um conteudo e imprime para você
+
+echo "maca" > frutas.txt	substitui as informçaões de frutas.txt a frutas.txt
+
+'''''''''' >> ''''''''''''''''''adciona ''''''''''''''''''''''''''''''''''''''''''
+
+history 			lista todos os comandos usados no terminal
+
+history | tail -n 5	 	lista os ultimos 5 comandos do history 
+
+history | tail -n 5 | cat > historico.txt  	 cria um historico.txt com as ultimas 5
+
+find .				lista diretorios e arquivos 
+find .	-type f		 	lista arquivos
+find .	-type d 		lista diretorios
+find .	-name "*.txt"		lista todos os arquivos .txt 
+find .	-name "*arteDaPalavr*" 	lista todos que tenham essa parte da palavra
+find .	-name "*final"		lista todos os arquivos que terminao com "final"
+find .	-name "final*"		lista todos os arquivos que começam com "final"
+
+name , date , size e type
+
+
+jobs		mostra processos sendo executados no sheel
+  
+  fg % (% somado ao numero do processo) 	tras um processo em background para frente (se tiver suspendido continua ele)
+  
+  bg % (% somado ao numero do processo)	 	leva um processo para o background  (se tiver suspendido continua ele)
+  
+  sleep	10					pausa o terminal ou o background por tempo escolhido 
+  
+  & 						coloca um processo em background em sua linha
+   		exemplo * wget..... &
+   		
+ ctrl + C  	 	  enterrompe o processo em primeiro plano
+ ctrl + Z 		suspende o processo 
+ kill 			mata o preoceso em background 
+ kill %1 
+ kill 3123 (PID)
+ kill -9 		mata o arquivo forçadamente

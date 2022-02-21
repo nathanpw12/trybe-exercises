@@ -1,0 +1,7 @@
+git init
+git commit	
+git branch 
+git checkout
+git merge 
+git branch -D    		apaga um branch
+git status

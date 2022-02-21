@@ -1,0 +1,7 @@
+cp 	 copia o conteudo do arquivo e coloca em um novo com um nome novo cp arquivo1.txt arquivo2.txt
+cat	 exibe o conteudo do arquivo 
+mv 	 move ou renomeia um arquivo ou diretorio
+rm 	 apaga um arquivo
+rmdir	 apaga um diretorio vazio
+rmdir -r	 apaga um diretorio com arquivos dentro mas pede autorização antes
+rmdir -rf	 """""""""""""""""""""""""""""""""""""" mas nao pede autorização antes	

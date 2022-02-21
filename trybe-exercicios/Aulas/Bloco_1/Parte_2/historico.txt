@@ -1,0 +1,10 @@
+  600  sudo rmmod v4l2loopback; sudo modprobe v4l2loopback exclusive_caps=1\n
+  601  ll
+  602  ls -l
+  603  ps
+  604  history --help
+  605  history | tail -n 5
+  606  history
+  607  ls -l
+  608  ll
+  609  cd Trybe/Aulas/Bloco\ 1/Parte_2/

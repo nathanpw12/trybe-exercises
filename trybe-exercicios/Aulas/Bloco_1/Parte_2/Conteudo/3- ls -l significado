@@ -1,0 +1,6 @@
+d	 diretorio	
+-	 no começo da linha significa que é um arquivo comum e nao um diretorio
+r	 read
+w	 write
+x	 executar
+
