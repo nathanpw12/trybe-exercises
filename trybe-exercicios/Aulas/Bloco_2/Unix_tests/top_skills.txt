@@ -3,3 +3,6 @@ Unix
 Bash
 Soft skills
 Java
+React 	
+Python
+
