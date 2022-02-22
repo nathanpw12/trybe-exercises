@@ -1,10 +1,7 @@
 Internet
 Unix
 Bash
-<<<<<<< HEAD: trybe-exercises /Aulas/Blocos/2/unix_tests/top_skills.txt
 Git	
 Git Hub
-=======
 React 	
 Python
->>>>>>> origin/trybe-skills-changes:trybe-exercicios/Aulas/Bloco_2/Unix_tests/top_skills.txt
