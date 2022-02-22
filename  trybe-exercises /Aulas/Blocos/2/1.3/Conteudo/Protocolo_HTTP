@@ -1,0 +1,15 @@
+Os protocolos sao regras para que os dispostivos se conectem na internet
+ 
+ TCP/IP
+ 
+ Base e envio de dados de toda internet
+ Facilitam a comunicação entre dispositivosna internet 
+ 
+ http - hypertext trnasfer protocol 
+ 
+ conexao entre o cliente e o servidor 
+ linguagem 
+ O HTTP é uma camada de abstração que padroniza a forma com que os hosts se comunicam.
+ 
+ 
+ Uma requisição ou resposta HTTP pura não é encriptada, sendo vulnerável a vários tipos de ataques. Por outro lado, HTTPS é uma forma mais segura de comunicação que utiliza a encriptação.
