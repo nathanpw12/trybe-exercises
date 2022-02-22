@@ -1,0 +1,88 @@
+www			Word Wide Web
+
+Software			Hardware	
+
+
+O ip é o cpf de cada maquina ou site 
+
+Cliente /////////////////	
+
+é responsavel por receber a integração do usario e envi	-la para outro computador chamado Servidor Web
+Cada cliente tem um ip que funciona com um cpf que o indentifica dos demais.
+Exemplos de cliente: firefox, chorme etc...
+Já o seu computador está no modelo Cliente-Servidor 
+
+Servidor ////////////////
+
+A principal funçao do servidor é armazernar,porcessar e entregar
+dessa forma ele é um supercomputador conectado a internet que tem seu própio endereço de ip e ele espera por requições de clientes 
+Há diversos tipos de servidores, como Web Servers, Database Servers, File Servers, Application Servers . O servidor que usamos para fazer a busca por www.google.com é um Web Server .
+
+Modelo Cliente-Servidor ////////////////
+
+https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/internet/images/cliente-servidor-0b0f5e85c403671651c24f36b030f060.png
+
+Aplicações web são formadas por um cliente , um servidor e uma base de dados
+
+Base de dados //////////////////////
+
+irá precisar usar um banco de dados para armazenar informações sobre usuários, posts , comentários. E quando um visitante fizer uma requisição para acessar a página, as informações que serão retornadas para a página virão de um banco de dados.
+
+"Balanceamento de carga" é um termo genérico para uma série de algoritmos que distribuem as requisições para o servidor.
+
+https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/internet/images/balanceador-carga-1909ad721538924dc3f2e342a81b4bf8.png
+
+O balanceador de cargas resolve o problema de tráfego de dados distribuindo as requisições para servidores backend
+
+Serviços /////////////////////////
+
+Um serviço é apenas outro servidor capaz de interagir com servidores, o que não acontece com um servidor Web, que interage apenas com o cliente. Cada serviço tem uma funcionalidade, como um serviço para autenticação de usuário ou serviços de busca. Assim, é possível quebrar o servidor Web da sua aplicação em múltiplos serviços, cada um com uma funcionalidade específica. A grande vantagem dos serviços é que você pode escaloná-los de forma independente. Além disso, os times de uma empresa também podem trabalhar de forma independente em um determinado serviço, ao invés de ter uma equipe numerosa trabalhando em um único servidor, o que poderia se tornar um grande problema de gestão de projeto.
+
+
+CDN ////////////////////////////////
+
+Empresas com uma grande quantidade de tráfego distribuído no mundo todo podem pagar por companhias que oferecem serviços de CDN. Assim, usuários de diversas localidades poderão acessar a aplicação com um tempo de resposta menor. Um exemplo é a Akamai , que tem sedes em pontos estratégicos no mundo todo para garantir uma melhor experiência ao usuário. Se o conteúdo da sua aplicação Web não precisa cruzar o oceano para que um usuário na China possa utilizá-lo, o tempo de resposta é muito menor. A Akamai, por exemplo, consegue reduzir esse tempo de latência ao armazenar cópias do conteúdo da aplicação (arquivos como o HTML, CSS, mídia) do servidor dos seus clientes. Assim, a Akamai consegue fornecer a aplicação para o usuário de seus clientes sem precisar ter acesso ao seu servidor de quem a contratou.
+
+Endereço de IP ////////////
+
+Internet Protocol, o endereço de IP é um indentificador para um dispositivo (computador, celular , tablet, impressora, roteador, servidor) conectado á rede TCP/IP
+Todo dispositivo conectado a internet tem um ip unico que servirá para se comunicar com outros dispostivos 
+Esses numeros de IP são chamados de endereço logico, contituidos por 4 campos de digito (244.155.65.2) 
+Para encontrar um dispositivo na internet o ip é convertido por um software, e esse endereço é conhecido por endereço de controle de acesso á mídia (MAC adress)
+
+TCP/IP //////////////////////
+
+Transmission Control Protocol, é um protocolo de envio e recebimentos de dados na internet,
+é responsavel por definir como difentes aplicações se comunicam pela rede e como esses dados enviados seram separados em pacotes e o ip define como esses pacotes devem ser enviados para chegar corretamente ao destinatário
+*O TCP/IP é a união dos protocolos TCP e IP, uma pilha de protocolos que é dividida em quatro camadas: aplicação, transporte, rede e interface. Cada uma dessas camadas tem uma responsabilidade específica, mas todas são conectadas entre si para garantir a segurança e a disponibilidade dos dados. 
+https://pt.wikipedia.org/wiki/TCP/IP
+
+ISP ////////////////////////////////
+
+Internet Service Provider, é o provedor de internet
+exemplo: Claro , Vivo , NET
+
+DNS //////////////////////////////
+
+Domain Name System, ele é uma base de dados que é responsavel por genrenciar o nome (dominio) de um site para o que nos digitamos em um endereço de IP
+
+Port Number ////////////////////////
+
+é um número de 16 bits utilizado para indentificar uma porta especifica no servidor
+
+Host ////////////////////////////////
+
+O host é qualquer computador conectado a rede (cliente,servidor etc) cada host tem um ip unico para o site que estamos navegando 
+o host é o servidor web que hospeda a página na web
+Host é difente de servidor , o Servidor é um tipo de host - uma máquina específica com endereço IP.
+
+HTTP //////////////////////////////////////
+
+Hyper-text Transfer Protocol , é o protocolo utilizado para a comunicação entre navegadores e servidores na Internet.
+
+URL ///////////////////////////////////
+
+Uniform Resource Locators,  O URL identifica o protocolo que será utilizado para comunicarmos com o servidor (https), o nome do host (google.com) e o recurso que queremos acessar (travel/flights).
+https://www.google.com/travel/flights 
+
+
