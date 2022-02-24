@@ -1,0 +1,41 @@
+body{
+  font-size: 16x;
+  background-color: rgb(70, 248, 233);
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  line-height: 30px;
+  color: #22a148;
+  text-decoration: underline;
+}
+
+p{
+  font-weight: 600;
+  font-size: 3em;
+  text-align: justify;
+  color: rgb(193, 127, 255);
+}
+
+.ul-p{
+  font-weight: bold;
+  text-align: justify;
+
+}
+
+.li-vermelha{
+  background-color: red;
+}
+
+.li-marrom{
+  background-color: rgb(122, 51, 4);
+}
+
+.li-amarela{
+  background-color: yellow;
+}
