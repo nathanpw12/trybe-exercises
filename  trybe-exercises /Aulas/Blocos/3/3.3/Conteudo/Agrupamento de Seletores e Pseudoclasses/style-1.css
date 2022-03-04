@@ -1,0 +1,14 @@
+h1,
+p {
+  text-align: center;
+}
+
+ol:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+li:active{
+    font-family: monospace;
+    font-size: 20px;
+}

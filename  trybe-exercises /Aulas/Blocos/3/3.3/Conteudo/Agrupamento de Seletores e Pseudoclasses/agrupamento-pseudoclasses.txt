@@ -1,0 +1,8 @@
+p, div {
+    background-color: red;
+ }
+ 
+ Pseudo classes
+ 
+ hover		da a propriedade ao passar o mouse sobre
+ active		da a propriedade ao clicar sobre 
