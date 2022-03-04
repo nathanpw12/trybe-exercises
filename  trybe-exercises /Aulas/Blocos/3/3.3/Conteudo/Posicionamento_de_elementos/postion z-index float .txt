@@ -1,0 +1,12 @@
+position 	absolute { fica na frente de todos os outros elementos
+		a hierarquia no css define quem vai ficar acima e n muda de 			lugar com o rolamento da pagina
+		
+		fixed { fica o elemento na posição e ele rola junto com a 			pagina , util para nav bar 
+		
+top
+left
+right
+
+z-index		colocar a ordem dos elementos que aparece de forma absoluta
+
+float           flutua o elemento
