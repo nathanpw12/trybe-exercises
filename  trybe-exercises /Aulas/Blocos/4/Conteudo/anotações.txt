@@ -1,0 +1,6 @@
+O script pode ser colado com <script></script> na main
+ou <script src=""></script>
+
+console.log 	 imprime a saida no console
+
+
