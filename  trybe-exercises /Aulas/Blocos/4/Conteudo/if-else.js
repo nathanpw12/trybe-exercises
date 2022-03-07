@@ -9,4 +9,7 @@ else if (nota < 80 && nota >= 60) {
 else { 
     console.log("Você foi reprovada(o)");
 }
+
+exercicios/3.4
+main
    
