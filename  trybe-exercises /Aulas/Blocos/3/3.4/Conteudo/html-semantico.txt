@@ -1,0 +1,8 @@
+header		cabeçalho da pagina ou de algum conteudo 
+nav		barra de navegação
+main		conteudo principal da pagina
+article 	conteudo que faz sentido separadamente
+section		seção 
+aside		barra lateral
+footer		 rodapé da pagina
+
