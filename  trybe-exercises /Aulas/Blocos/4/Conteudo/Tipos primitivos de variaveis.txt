@@ -1,0 +1,25 @@
+///////// Definições de variaveis /////////
+
+** let <nome> = <valor> **
+
+var <nome> = <valor>
+
+const <nome> = <valor>
+
+
+///// Tipos primitivos ///////////
+
+string,	number, boleano, indefino(undefined) e nulo(null)
+
+** ver tipo da variavel no console: typeof(variavel)
+
+////// Operadores aritimeticos //////
+
+let operação = variavel1 <operador> variavel2
+
+soma		  +
+subtraçao 	  -
+divisão 	  /
+operação 	  *
+exponeciação 	  
+

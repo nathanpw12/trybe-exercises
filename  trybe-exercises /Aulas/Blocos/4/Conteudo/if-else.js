@@ -10,5 +10,6 @@ else {
     console.log("Você foi reprovada(o)");
 }
 
-//teste
+exercicios/3.4
+main
    
