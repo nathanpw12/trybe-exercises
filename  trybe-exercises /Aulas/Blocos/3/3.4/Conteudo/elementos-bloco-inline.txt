@@ -1,0 +1,9 @@
+display
+
+Em block, o conteudo é exbido um em cima do outro e podemos mudar seu width e height e margin top e bottom
+
+Em line, o conteudo é exbido um ao lado do outro e nao podemos mexer em seu width e height e margin top e bottom (somente margin horizontais)
+
+Ao colocar um float em um elemento de inline, ele se torna in block 
+
+Em line-block, o conteudo é exibido lado a lado, porem podemos mudar o width e o height e margin top e bottom 
