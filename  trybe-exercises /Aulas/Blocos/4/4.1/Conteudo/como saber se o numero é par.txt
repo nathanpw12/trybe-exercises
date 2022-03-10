@@ -1,0 +1,11 @@
+Se o resto da divisao de um numero divido por 2 é igual a zero , ele é par
+
+console.log('Resto da Divisão');
+let restoDivisao = 11 % 3;
+console.log(restoDivisao)
+
+ console.log('Como saber se um numero é par?')
+ let isEven = (10 % 3) == 0
+ console.log(isEven);
+ 
+ 

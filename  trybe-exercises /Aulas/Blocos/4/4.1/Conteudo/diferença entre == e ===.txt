@@ -1,0 +1,7 @@
+/////////// diferença entre == , ===  //////////
+
+1 == "1" (compara o valor diretamente)
+
+1 === "1"  ( compara valor e o tipo da variavel)
+
+usar os === preferencialmente

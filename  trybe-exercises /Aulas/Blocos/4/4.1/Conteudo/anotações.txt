@@ -3,4 +3,4 @@ ou <script src=""></script>
 
 console.log 	 imprime a saida no console
 
-
+&& = "e"

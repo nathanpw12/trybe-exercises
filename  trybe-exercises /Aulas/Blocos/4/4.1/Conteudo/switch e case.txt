@@ -1,0 +1,24 @@
+////////// switch case /////////////
+
+Compara o valor do case com o valor switch e reproduz o que o case esta pedindo se o valor for igual
+
+
+
+switch (valorDaSaida) {
+  case 1:
+ 	 console.log('');
+ 	 break;
+  case 2:
+ 	 console.log('');
+ 	 break;
+  case 3:
+ 	 console.log('');
+ 	 break;
+  case 4:
+ 	 console.log('');
+ 	 break;
+  default:
+     	 console.log('nenhum case satisfaz o valor 					da variavel');
+}
+
+

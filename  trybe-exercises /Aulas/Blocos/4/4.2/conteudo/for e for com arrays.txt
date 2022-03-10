@@ -1,0 +1,23 @@
+////////// For (laço de repetição) ///////////
+
+
+
+========= Ver tabuada de um numero ===========
+
+var numero = 7;
+
+for (let = index = 0; index <= 9; index++) {
+	console.log(numero * index);
+}
+
+
+============= For com array ===============
+
+ var listaDeNomes = ['joana, 'nathan', 'pedro']
+ 
+ for (let indice = 0; indice < listaDeNomes.length; indice++) {
+ 	let mensagem = "Boas Vindas, " + listaDeNomes[indice] + "!";
+ 	console.log(mensagem)
+ }
+ 
+ 

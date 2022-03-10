@@ -1,0 +1,42 @@
+///////// Definições de variaveis /////////
+
+** let <nome> = <valor> **
+
+var <nome> = <valor>
+
+const <nome> = <valor>
+
+
+///// Tipos primitivos ///////////
+
+string,	number, boleano, indefino(undefined) e nulo(null)
+
+** ver tipo da variavel no console: typeof(variavel)
+
+////// Operadores aritimeticos //////
+
+let operação = variavel1 <operador> variavel2
+
+soma		  +
+subtraçao 	  -
+divisão 	  /
+multiplicação	  *
+exponeciação 	  **
+	  
+///////// Uso do ++ e -- /////////////////
+
+num1++
+é o mesmo que num1 = num + 1
+se o sinal esta depois da variavel (variavel++), primeiro o valor é retornado na saida e depois é somado + 1
+
+++num1
+primeiro é somado e depois o valor é retornado
+
+////////// Comparações com maior e menor ////////////
+
+Comparações devolvem valor true or false
+
+let comparacao = num1 > num2
+console.log(12 < 10) 
+
+

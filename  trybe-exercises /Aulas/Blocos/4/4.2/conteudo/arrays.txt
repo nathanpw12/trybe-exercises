@@ -1,0 +1,51 @@
+/////////// arrays /////////////
+
+let pizzas = ['Menu de sabore: ' + '', '', '', '',]
+
+
+
+
+==== Para adiconar um novo valor no array ==============
+
+pizzas[5] = '';
+
+se colocar em um indice existente , ele sera sobreescrevido
+
+
+
+
+========  Para adiconar um novo valor no array ===========
+
+pizzas.push('') 
+
+coloca o valor na ultima posição do array
+
+
+
+======= Saber o TAMANHO do elemento array =============
+
+pizzas.length
+
+
+
+=======  Colocar o array em orde alfabetica ou crescente ============
+
+pizzas.sort()
+
+
+
+========== Ver um elemento de um array ============
+
+pizzas[0]
+pizzas[1]
+pizzas[2]
+pizzas[3]
+pizzas[4]
+pizzas[5]
+pizzas[6]
+
+======= Para ver somente o valor da array inteira ==========
+
+for (let index = 0; index < pizzas.length; index += 1) {
+	console.log(pizzas[index]);
+}

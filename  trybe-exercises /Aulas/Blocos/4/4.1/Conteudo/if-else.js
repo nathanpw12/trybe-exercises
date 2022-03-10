@@ -7,3 +7,5 @@ if (nota >= 80) {
 } else {
   console.log("Você foi reprovada(o)");
 }
+
+

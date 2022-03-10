@@ -1,0 +1,22 @@
+////////// math.random() //////////
+
+
+imprime um numero aleatorio entre 0 e 1
+
+================ para um numero entre outros valores ==========
+
+
+math.random() * valor maximo
+
+
+
+========== para arredondar o numero ==========
+
+
+==== entre um valor e outro sem incluilos
+
+math.floor(math.random() );
+
+==== entre o valor incluindo as bases
+
+math.ceil(math.random() );
