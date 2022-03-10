@@ -12,10 +12,9 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(numbers[7]);
 // console.log(numbers[8]);
 // console.log(numbers[9]);
-
-// 2- Para o segundo exercício, some todos os valores contidos no array e imprima o resultado; //
-
-
-for (i = 0; i < numbers.length; i+=1) {
  
-}
+  // 2- Para o segundo exercício, some todos os valores contidos no array e imprima o resultado; //
+
+  for (sum of numbers) {
+    console.log(sum);
+  }
