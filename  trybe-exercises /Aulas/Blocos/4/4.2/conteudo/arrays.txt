@@ -16,10 +16,29 @@ se colocar em um indice existente , ele sera sobreescrevido
 
 ========  Para adiconar um novo valor no array ===========
 
-pizzas.push('') 
-
 coloca o valor na ultima posição do array
 
+pizzas.push('') 
+
+coloca o valor na primeira posição do array
+
+.unshift() 
+
+=========== Remover um item do array ==============
+
+remove o ultimo
+
+.pop()	
+
+remove o primeiro
+
+.shift()
+
+
+======= encontrar um o indice de um item no array ===========
+
+
+.	indexOf()
 
 
 ======= Saber o TAMANHO do elemento array =============
