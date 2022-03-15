@@ -55,14 +55,14 @@ console.log(singer.propriedade_5);
 // As chaves de um objeto são armazenadas como strings e, para conseguir acessar propriedades nomeadas com números, como 0 , por exemplo, só é possível usando a notação de colchetes . Se você usar a notação de ponto , ocorre um erro. Ao usar a notação de colchetes também é possível chamar variáveis que fazem relação com a chave que você quer acessar dentro desses colchetes.
 
 let diasDaSemana = {
-  : 'domingo',
-  : 'segunda',
-  : 'terça',
-  : 'quarta',
-  : 'quinta',
-  : 'sexta',
-  : 'sábado',
-  };
-  
-  diasDaSemana.1; // SyntaxError: Unexpected number
-  console.log(diasDaSemana['1']); // domingo
+  1: 'domingo',
+  2: 'segunda',
+  3: 'terça',
+  4: 'quarta',
+  5: 'quinta',
+  6: 'sexta',
+  7: 'sábado',
+};
+
+diasDaSemana.1; // SyntaxError: Unexpected number
+console.log(diasDaSemana['1']); // domingo
