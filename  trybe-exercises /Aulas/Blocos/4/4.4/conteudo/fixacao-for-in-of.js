@@ -10,7 +10,7 @@ let names = {
 	  console.log('Olá ' + names[key]);
   }
 
-// 2 - Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
+//  a 2 - Usando o objeto abaixo, utilize for/in e imprima um console.log com as chaves e valores desse objeto.
 
 let car = {
 	model: 'A3 Sedan',
