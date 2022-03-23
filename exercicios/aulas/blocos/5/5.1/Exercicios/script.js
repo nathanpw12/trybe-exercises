@@ -18,5 +18,8 @@ document.querySelector(".title").innerHTML = "Exercício 5.1 - Java Script";
 
 // 5- Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
 
-document.querySelectorAll(".center-content p")[0].style.setProperty.toUpperCase
+document.querySelectorAll(".center-content p")[0].style.textTransform = "uppercase";
 
+// Crie uma função que exiba o conteúdo de todas as tags <p> no console
+
+console.log(document.querySelectorAll("p"))
