@@ -2,12 +2,13 @@
 
 // Para alterar um elemento
 
-document.getElementsByClassName("class")[0].innerHTML = "Mudando o texto da posição 0";
+document.getElementsByClassName("class")[0].innerHTML =
+  "Mudando o texto da posição 0";
 
 // Trocar varios elementos de uma vez
 // esse for vai percorrer todos os indices dados pela lista formada no get elements by class name e alteralos pelo texto escolhido.
 let Class = document.getElementsByClassName("Class");
 
 for (let i = 0; Class.length; i += 1) {
-    Class[i].innerHTML = "esse texto ira ser colocado em todos os elementos"
+  Class[i].innerHTML = "esse texto ira ser colocado em todos os elementos";
 }
