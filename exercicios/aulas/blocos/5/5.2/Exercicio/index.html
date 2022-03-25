@@ -64,6 +64,7 @@
 
     let h1Body = document.createElement("h1");
     h1Body.innerText = "Exercício 5.2 - JavaScript DOM";
+    h1Body.className = "h1-body"
     document.body.appendChild(h1Body);
 
     // 2- Adicione a tag main com a classe main-content como filho da tag body 
@@ -76,6 +77,7 @@
 
     let section0Main = document.createElement("section");
     section0Main.className = "center-content";
+    section0Main.style.backgroundColor = "green"
     document.querySelectorAll("main")[0].appendChild(section0Main);
 
     // 4- Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
@@ -94,6 +96,7 @@
 
     let rightContent = document.createElement("section");
     rightContent.className = "right-content";
+    rightContent.style.marginRight = "auto";
     document.querySelector(".main-content").appendChild(rightContent);
 
     // 7- Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do section criado no passo 5
@@ -117,9 +120,7 @@
       'Cinco',
       'Seis',
       'Sete',
-      'Oito',
-      'Nove',
-      'Dez'
+      'Oito'
     ]
 
     let liUmAoDez = document.querySelector(".ul-Um-Ao-Dez");
@@ -132,6 +133,36 @@
       liUmAoDez.appendChild(liList);
     }
 
+    // 9- Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2
+
+    let primeiroH3Main = document.createElement("h3");
+    primeiroH3Main.className = "description";
+    document.querySelector(".main-content").appendChild(primeiroH3Main);
+
+    let segundoH3Main = document.createElement("h3")
+    segundoH3Main.className = "description";
+    document.querySelector(".main-content").appendChild(segundoH3Main);
+
+    let terceiroH3Main = document.createElement("h3")
+    terceiroH3Main.className = "description";
+    document.querySelector(".main-content").appendChild(terceiroH3Main);
+
+    // 10- Adicione a classe title na tag h1 criada
+
+    let title = document.createElement("title");
+    document.querySelector(".h1-body").appendChild(title);
+
+    // 11- Adicione a classe description nas 3 tags h3 criadas
+
+    // 12- Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild()
+
+    leftContent.parentNode.removeChild(leftContent);
+
+    // 13- Centralize a section criado no passo 6 (aquele que possui a classe right-content ). Dica: para centralizar, basta configurar o margin-right: auto da section 
+
+    // 14- Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content ) para a cor verde
+    
+    // 15- Remova os dois últimos elementos ( nove e dez ) da lista criada no passo 8
 
   </script>
 </body>
