@@ -36,7 +36,7 @@ function recebeClick(eventoDeOrigem) {  // o evento de origem é o objeto recebi
   console.log(eventoDeOrigem.target); // o target retorna o própio elemento, no caso clickP
   console.log(eventoDeOrigem.type);   // O type retorna o tipo de evento, no caso click 
 }
-
+  
 
 // addEventListener: Parametros:
 
