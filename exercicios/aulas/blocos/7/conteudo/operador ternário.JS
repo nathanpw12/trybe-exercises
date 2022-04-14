@@ -1,0 +1,1 @@
+// Por último, mas não menos importante, vem o operador ternário , ou ternary operator , que permite criar expressões condicionais com dois outputs possíveis em apenas uma linha. 

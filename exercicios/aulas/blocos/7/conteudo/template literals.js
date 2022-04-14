@@ -1,0 +1,1 @@
+// Os template literals são importantes pois irão nos ajudar a construir strings mais bem escritas e concisas, ajudando na prevenção de erros. 

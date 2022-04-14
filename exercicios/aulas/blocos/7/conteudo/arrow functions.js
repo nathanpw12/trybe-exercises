@@ -1,0 +1,1 @@
+// As arrow functions , além de deixar o código mais legível, quando bem utilizadas, ainda resolvem outro problema antigo do famigerado var that = this . Vamos ver esse problema com mais detalhes na sessão de conteúdos. 
