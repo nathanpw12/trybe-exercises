@@ -1,4 +1,5 @@
 // Fist-Class Funcitons são funções que podem ser atribuídas à variáveis, passadas como argumento e/ou retornadas por outras funções.
+// First-Class Functions é o nome do conceito que define a forma que a linguagem (no nosso caso JavaScript) trata suas funções, 'permitindo que sejam suportadas em operações que são usadas em outros tipos (atribuição, retorno, parâmetro)'
 // ex:
 
 function sum (number1, number2) {
