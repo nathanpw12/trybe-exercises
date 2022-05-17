@@ -2,6 +2,8 @@
 
 // O for each percorre um array e para sua estrutura precisa de uma arrow function e pelo menos 1 parametro: 
 
+// O for each nao  retona nada
+
 // https://prnt.sc/wYiIZuSPRrjw
 
 const nathanLindo = [1, 2, 'sim', 'nao'];

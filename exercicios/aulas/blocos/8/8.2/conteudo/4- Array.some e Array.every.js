@@ -1,5 +1,7 @@
 // O some verifica a condição e retorna true se alguem do array a favorecer e false se niguem favorecer.
 
+// O some retorna true ou false para  primeiro elemento q satisfaz a condição
+
 // https://prnt.sc/mGyHL1DaM2lS
 
 const ages1 = [12, 24, 49, 70];
@@ -22,6 +24,8 @@ console.log(verifyFirstLetter('x', listNames)); // false
 
 
 // O every verifica se todos do array favorecem a condição.
+
+// O every retorna true ou false se todos os elementos satisfazerem a condição.
 
 // https://prnt.sc/cfj3Lz5HpspQ
 

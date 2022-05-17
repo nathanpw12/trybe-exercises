@@ -2,6 +2,8 @@
 // Essa condição é implementada na função (callback), que será executada para cada elemento de array.
 // Então, a função que deverá ser passada precisa retornar true ou false.
 
+// O find retorna o elemento que satisfaz a condição
+
 // https://prnt.sc/2L5XffPubnaX
 
 const numbers = [19, 21, 30, 3, 45, 22, 15];
