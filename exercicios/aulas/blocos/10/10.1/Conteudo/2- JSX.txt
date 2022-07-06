@@ -1,0 +1,46 @@
+JSX ou Javascript Syntax Extension
+
+é usada nas aplicações React
+
+Exemplo de JSX: 
+
+const element = <h1>Hello, world!</h1>;
+
+(Os códigos com a sintaxe JSX só funcionam dentro do contexto do React, ou seja, não funcionam em JS puro ou rodando diretamente no console do navegador, por exemplo.)
+
+1- A construção de um elemento JSX é bem parecida com um elemento HTML, com pequenas diferenças para que não haja conflito do HTML com o JS. Um exemplo disso é a declaração de uma class no HTML, que é substituída por className no JSX, pois haveria conflito de sintaxe com as classes do JS.
+
+2- Incorporando expressões no JSX
+
+const nome = 'Jorge Maravilha';
+const element = <h1>Hello, {nome}</h1>;
+
+
+/// ex:
+
+function nomeCompleto (nome, sobrenome) {
+  return `${nome} ${sobrenome}`;
+}
+
+const element = <h1>Hello, {nomeCompleto("Jorge", "Maravilha")}</h1>;
+
+/// 
+
+function helloWorld (nome, sobrenome) {
+  return <h1>Hello, {`${nome} ${sobrenome}`}</h1>;
+}
+
+const element = helloWorld("Jorge", "Maravilha");
+const container = <div>{element}</div>;
+
+/// 
+
+function helloWorld (nome, sobrenome) {
+  return <h1>Hello, {`${nome} ${sobrenome}`}</h1>;
+}
+
+/// 
+
+const nome = 'Jorge Maravilha';
+const classe = 'hello-class';
+const element = <h1 className={classe}>Hello, {nome}</h1>;

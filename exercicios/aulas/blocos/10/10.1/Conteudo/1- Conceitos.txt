@@ -1,0 +1,8 @@
+React é uma criação do facebook, ele é uma biblioteca javascript para construção de interface do usuário.
+
+// objetivo de organizar, componentizar e, consequentemente, 
+tornar muito mais eficiente cada parte das aplicações que a utilizam.
+
+A ideia do React é dividir  a aplicação em blocos, para que possamos reutilizar esses blocos e para que eles funcionem independentes uns dos outros 
+
+
