@@ -1,0 +1,3 @@
+-- O ReactDOM.render é o responsável por renderizar e atualizar seu código dentro do HTML.
+
+Todas as vezes que fizermos alguma alteração no código, seja através de uma função ou interação de quem usa, o React DOM compara o elemento novo e seus elementos filhos com os anteriores e aplica mudanças somente onde é necessário para levar a aplicação ao estado desejado. Vamos ver um exemplo:

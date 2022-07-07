@@ -1,0 +1,7 @@
+Scrum é um framework para gestão e planejamento de projetos. As equipes que trabalham neste método, geralmente, são divididas em Product Owner (PO), Scrum Master e Scrum Team (ou Time de Desenvolvimento). Você, como pessoa desenvolvedora, deverá, geralmente, integrar a equipe desta última parte da divisão.
+
+No Scrum, os projetos são divididos em ciclos chamados de Sprints.
+
+O Sprint representa um espaço de tempo, normalmente de 2 a 4 semanas, no qual um conjunto de atividades deve ser executado. As funcionalidades a serem implementadas em um projeto são mantidas em uma lista que é conhecida como Product Backlog. Este material contém todas as funcionalidades que foram elencadas como importantes para quem usa o produto, e é responsabilidade do PO definir seu conteúdo. Estas informações não precisam necessariamente estar disponíveis no início de um projeto, podendo ser acrescidas, alteradas e melhoradas à medida que se aprende mais sobre o produto e quem o usa.
+
+O próximo passo é conectar o que foi priorizado pela pessoa PO com o Scrum Team. Para isso, no início de cada Sprint, faz-se um Sprint Planning Meeting, ou seja, uma reunião de planejamento na qual a pessoa PO prioriza os itens do Product Backlog e a equipe seleciona as atividades que ela será capaz de implementar durante o Sprint que se inicia, originando o Sprint Backlog.
