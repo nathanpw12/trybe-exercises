@@ -6,7 +6,4 @@ Em React, classe é uma das formas de renderizar os componentes na página. Ent�
 
 Propósito das classes:
 
-- Agrupar funções que façam sentido juntas.
-- Uma 'entidade' representa alguma coisa que represente a união dessas funções.
-- No React, uma classe será um elemento da tela.
-- Um bloco de funções que tratam a mesma coisa e fazem sentidos de estarem junts, ao usar esse bloco de funções no React, podemos usar as classes para criar componentes no React (elementos na tela)
+- Agrupa funções no React, podemos usar as classes para criar componentes no React (elementos na tela)
